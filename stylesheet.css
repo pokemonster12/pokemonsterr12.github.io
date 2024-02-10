@@ -158,7 +158,10 @@ body
 {
     font-size:50px
 }
-
+.text
+{
+    font-size: 0.55em
+}
 /*------------forms-----------*/
 
 #forms
