@@ -2,12 +2,20 @@
 {
     margin: 0;
     padding: 0;
-    overflow-x:hidden;
+    overflow-x: hidden
+}
+::-webkit-scrollbar
+{
+    display: none;
+}
+::-webkit-scrollbar-button
+{
+    display: none
 }
 body
 {
     font-family: sans-serif;
-    overflow-x: hidden !important;
+    -ms-overflow-style:none
 }
 
 #navbar
@@ -161,7 +169,7 @@ body
 }
 .text
 {
-    font-size: 0.875em
+    font-size: 1em
 }
 
 /*------------forms-----------*/
@@ -175,7 +183,7 @@ body
 .forms
 {
     display: flex;
-    justify-content: center;
+    
     align-items: center;
 }
 .form
@@ -189,4 +197,3 @@ body
     background-image: linear-gradient(red,yellow);
     text-align: right;
 }
-
