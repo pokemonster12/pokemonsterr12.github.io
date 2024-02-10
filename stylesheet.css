@@ -171,7 +171,16 @@ body
     padding bottom: 20px;
     
 }
-
+.forms
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form
+{
+    background-color: yellow;
+}
 /*------------footer------------*/
 
 #footer
